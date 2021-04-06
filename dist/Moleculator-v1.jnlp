@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Moleculator-v1.jnlp">
+  <information>
+    <title>Moleculator-v1</title>
+    <vendor>Diego</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Moleculator-v1.jar" size="5445" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="moleculator.v1.MoleculatorV1"  name="Moleculator-v1" />
+  <update check="always"/>
+</jnlp>
